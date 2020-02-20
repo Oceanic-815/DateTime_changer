@@ -1,0 +1,2 @@
+# DateTime_changer
+ In some cases, it is needed to move system date forward and the time backward to provoke backup start by schedule and speed up testing.   For example, we have a backup plan which starts at 10:00:00 PM every day. To speed up testing, we need to move system date one day forward and the time backward to 09:59:00 PM after each backup start.  So, this script moves system date 1 day forward and the time backward. The time should be specified as a parameter.  Usage: scriptname.exe -t:21:59:00
